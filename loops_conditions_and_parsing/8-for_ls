@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Display filenames after first dash
+
+for file in *
+do
+    echo "$file" | cut -d "-" -f2-
+done
