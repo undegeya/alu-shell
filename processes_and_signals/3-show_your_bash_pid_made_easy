@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # display bash PID and name
-ps -C bash -o pid= -o comm=
+
+pgrep -l bash
