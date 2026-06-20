@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# daemon writing alive messages
 
 while true
 do

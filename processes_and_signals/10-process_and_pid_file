@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# process with PID file and signal handling
 
 PID_FILE="/var/run/myscript.pid"
 
